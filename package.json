@@ -1,0 +1,31 @@
+{
+  "name": "qr-code-generator",
+  "version": "2.0.0",
+  "description": "Free QR code generator with bulk CSV export, custom colours and branding. Runs entirely in the browser.",
+  "main": "app.js",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "lint": "npm --prefix client run lint",
+    "install-all": "npm install && npm --prefix client install"
+  },
+  "keywords": [
+    "qr",
+    "qr-code",
+    "generator",
+    "bulk",
+    "react",
+    "vite"
+  ],
+  "author": "ceyMX",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
